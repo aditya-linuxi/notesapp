@@ -3,14 +3,10 @@ frontend:
   phases:
     preBuild:
       commands:
-<<<<<<< HEAD
-        - npm install --legacy-peer-deps
-=======
         - nvm install 20
         - nvm use 20
         - corepack enable
         - npm ci
->>>>>>> 27da90e (Updated files)
     build:
       commands:
         - npm run build
